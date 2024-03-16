@@ -2,6 +2,10 @@ import React from "react";
 import User from "./components/User";
 import UserObject from "./components/UserObject";
 import ArrayOfObject from "./components/ArrayOfObject";
+import DataFetch from "./components/DataFetch";
+import Button from "./components/Button";
+import Post from "./components/Post";
+import ButtonStyle from "./components/ButtonStyle";
 
 const userObject = {
   name: "Mehedi",
@@ -24,15 +28,23 @@ const arrayOfObject = [
     age: 24,
     status: "Software Developer",
     language: ["Bangle", "English", "Hindi"],
-  }
+  },
 ];
 
+const btnStyles = {
+  color: "white",
+  background: "green"
+};
 const App = () => {
   return (
     <div>
       {/* <User name='Kongkon jowarder' age={22} isRegistered={false} language={["Bangla", "English"]}/> */}
       {/* <UserObject userObject={userObject} /> */}
-      <ArrayOfObject arrayOfObject={arrayOfObject}/>
+      {/* <ArrayOfObject arrayOfObject={arrayOfObject}/> */}
+      {/* <DataFetch status="error"/> */}
+      {/* <Button>Click here</Button> */}
+      {/* <Post/> */}
+      <ButtonStyle btnStyle={btnStyles} />
     </div>
   );
 };
