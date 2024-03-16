@@ -6,6 +6,7 @@ import DataFetch from "./components/DataFetch";
 import Button from "./components/Button";
 import Post from "./components/Post";
 import ButtonStyle from "./components/ButtonStyle";
+import CounterApp from "./components/CounterApp";
 
 const userObject = {
   name: "Mehedi",
@@ -44,7 +45,8 @@ const App = () => {
       {/* <DataFetch status="error"/> */}
       {/* <Button>Click here</Button> */}
       {/* <Post/> */}
-      <ButtonStyle btnStyle={btnStyles} />
+      {/* <ButtonStyle btnStyle={btnStyles} /> */}
+      <CounterApp/>
     </div>
   );
 };
