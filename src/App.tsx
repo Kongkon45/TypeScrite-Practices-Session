@@ -8,6 +8,7 @@ import Post from "./components/Post";
 import ButtonStyle from "./components/ButtonStyle";
 import CounterApp from "./components/CounterApp";
 import NewUser from "./components/NewUser";
+import NewUsers from "./components/NewUsers";
 
 const userObject = {
   name: "Mehedi",
@@ -48,7 +49,8 @@ const App = () => {
       {/* <Post/> */}
       {/* <ButtonStyle btnStyle={btnStyles} /> */}
       {/* <CounterApp/> */}
-      <NewUser/>
+      {/* <NewUser/> */}
+    <NewUsers/>
     </div>
   );
 };
