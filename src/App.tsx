@@ -9,6 +9,7 @@ import ButtonStyle from "./components/ButtonStyle";
 import CounterApp from "./components/CounterApp";
 import NewUser from "./components/NewUser";
 import NewUsers from "./components/NewUsers";
+import Counter from "./components/Counter";
 
 const userObject = {
   name: "Mehedi",
@@ -50,7 +51,8 @@ const App = () => {
       {/* <ButtonStyle btnStyle={btnStyles} /> */}
       {/* <CounterApp/> */}
       {/* <NewUser/> */}
-    <NewUsers/>
+      {/* <NewUsers/> */}
+      <Counter/>
     </div>
   );
 };
