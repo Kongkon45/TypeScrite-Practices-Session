@@ -10,6 +10,7 @@ import CounterApp from "./components/CounterApp";
 import NewUser from "./components/NewUser";
 import NewUsers from "./components/NewUsers";
 import Counter from "./components/Counter";
+import Reducer from "./components/Reducer";
 
 const userObject = {
   name: "Mehedi",
@@ -52,7 +53,8 @@ const App = () => {
       {/* <CounterApp/> */}
       {/* <NewUser/> */}
       {/* <NewUsers/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Reducer/>
     </div>
   );
 };
